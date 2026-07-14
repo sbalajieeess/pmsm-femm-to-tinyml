@@ -1,0 +1,40 @@
+[run]
+name = "one_eighth_60C_4slice"
+model = "models/femm/oneEighth_60C.FEM"
+output_root = "runs"
+parallel_workers = 4
+continue_on_error = false
+save_loaded_fem = false
+save_flux_density_bitmap = false
+save_mesh_text = false
+
+[motor]
+temperature_c = 60.0
+symmetry_factor = 8
+pole_pairs = 4
+stack_length_mm_total = 152.0
+# The supplied four-slice FEM files use 38 mm depth per slice: 152/4.
+stack_length_mm_per_slice = 38.0
+phase_resistance_mohm = 3.5
+
+[inverter]
+dc_voltage_v = 400.0
+
+[coordinates]
+d_axis_sliding_band_mech_deg = 4.0
+rotor_angle_elec_deg = 0.0
+torque_sign_to_positive_motoring = -1.0
+
+[skew]
+angles_mech_deg = [2.8125, 0.9375, -0.9375, -2.8125]
+
+[femm]
+sliding_band_name = "slidingBand"
+circuit_names = ["U", "V", "W"]
+mesh_lua = "legacy/femm_skew/get_mesh_data_FEMM.lua"
+smart_mesh = false
+hide_window = true
+
+[fea_sampling]
+enabled = false
+mesh_offset_angle_deg = 0.0

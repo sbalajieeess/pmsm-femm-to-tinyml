@@ -1,0 +1,2 @@
+case_id,id_rms_a,iq_rms_a,description
+EDIT_ME_001,-10,10,Replace or generate with scripts/generate_grid.py

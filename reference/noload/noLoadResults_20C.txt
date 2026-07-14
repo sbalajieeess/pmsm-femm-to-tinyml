@@ -1,0 +1,8 @@
+dAxis angle = 4
+ran with Symmetry = 8
+pole Pairs = 4
+maxU phase flux Value = = 0.063246596531256
+Hence Back Emf Vllrms calculated from FL = = 32.44684053044133
+Back Emf Vllrms calculated from phase Back EMFs = 31.58888960551033
+phase Back EMF pk (from differentiating the measured fluxLinkage) = 23.44
+phase Back EMF rms (from differentiating the measured fluxLinkage) = 16.58

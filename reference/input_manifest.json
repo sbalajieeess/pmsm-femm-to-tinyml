@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-07-14T08:49:32.136662+00:00",
+  "files": [
+    {
+      "bytes": 890,
+      "path": "configs/one_eighth_100C.toml",
+      "sha256": "60d13a05b4ea465f57cd6e77f3eb8b9f9becc2689d3443f850822d2f7f36f56e"
+    },
+    {
+      "bytes": 887,
+      "path": "configs/one_eighth_20C.toml",
+      "sha256": "7918eb147555c8d1952a30ab5c6fad9ed171ea757294fb54e5eb7ee37c5fd0f7"
+    },
+    {
+      "bytes": 887,
+      "path": "configs/one_eighth_60C.toml",
+      "sha256": "508c7f7fb7fef62f216269c10d01621ec7937e896f808d3e42e0e3c174483a8c"
+    },
+    {
+      "bytes": 504,
+      "path": "examples/coarse_20point_map.csv",
+      "sha256": "a450eb8279ad725c0e43023e778c04d8d882a4adcca1f927f20162d9825e2038"
+    },
+    {
+      "bytes": 107,
+      "path": "examples/dense_grid_template.csv",
+      "sha256": "6b21d95f53f66e93383c399f71b0bcb29ac4f0dd281721a2cb47b98de1819aec"
+    },
+    {
+      "bytes": 117,
+      "path": "examples/smoke_points.csv",
+      "sha256": "9239d1293e762126d21078efc03ebb84af82331a7bc1bc411608b74ea4a22552"
+    },
+    {
+      "bytes": 18611,
+      "path": "models/femm/oneEighth_100C.FEM",
+      "sha256": "a6cc7b82c476386fb04de48d8ee9884236937567cc17bede15536b51c950b8f0"
+    },
+    {
+      "bytes": 18631,
+      "path": "models/femm/oneEighth_20C.FEM",
+      "sha256": "0009a52775bb44a4c2a1674cd20177876e77577c709f1764b89ba8e731aeaf6a"
+    },
+    {
+      "bytes": 18999,
+      "path": "models/femm/oneEighth_60C.FEM",
+      "sha256": "038f4fe529bd6b1da2f36462713ad7e37c54ee34a22eae65b4f6fb2f18eca647"
+    }
+  ]
+}

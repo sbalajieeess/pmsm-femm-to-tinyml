@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmsm-femm-to-tinyml"
+version = "0.1.0"
+description = "Reproducible four-skew FEMM truth-map generation for PMSM controller and TinyML workflows"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Balaji S"}]
+dependencies = ["numpy>=1.26,<3", "pandas>=2.1,<3", "scipy>=1.11,<2", "tqdm>=4.66,<5"]
+
+[project.optional-dependencies]
+windows = ["pyfemm>=0.1.3"]
+dev = ["pytest>=8,<10", "ruff>=0.6,<1", "build>=1.2,<2"]
+
+[project.scripts]
+pmsm-femm-check = "pmsm_femm.environment:main"
+pmsm-femm-run = "pmsm_femm.femm_runner:main"
+pmsm-femm-summarize = "pmsm_femm.postprocess:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

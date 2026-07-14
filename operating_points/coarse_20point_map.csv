@@ -1,0 +1,21 @@
+case_id,id_rms_a,iq_rms_a,description
+P001,0,40,coarse map
+P002,-30,40,coarse map
+P003,-60,40,coarse map
+P004,-90,40,coarse map
+P005,-120,40,coarse map
+P006,0,80,coarse map
+P007,-30,80,coarse map
+P008,-60,80,coarse map
+P009,-90,80,coarse map
+P010,-120,80,coarse map
+P011,0,120,coarse map
+P012,-30,120,coarse map
+P013,-60,120,coarse map
+P014,-90,120,coarse map
+P015,-120,120,coarse map
+P016,0,160,coarse map
+P017,-30,160,coarse map
+P018,-60,160,coarse map
+P019,-90,160,coarse map
+P020,-120,160,coarse map

@@ -1,0 +1,17 @@
+name: Feature request
+description: Propose an upgrade to PMSM FEMM to TinyML
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Engineering need
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
