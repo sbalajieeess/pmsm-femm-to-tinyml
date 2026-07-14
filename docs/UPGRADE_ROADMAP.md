@@ -8,7 +8,7 @@
 - SHA-256 provenance
 - Windows quick start
 - tests and GitHub CI
-- private publishing workflow
+- public publishing workflow
 
 ## v0.2 — Numerical regression and diagnostics
 

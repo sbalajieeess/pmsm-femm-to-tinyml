@@ -2,7 +2,7 @@
 
 ## Repository owner
 
-- [ ] Publish as a private GitHub repository.
+- [ ] Publish as a public GitHub repository with the MIT license.
 - [ ] Replace `CODEOWNERS` placeholder.
 - [ ] Add team members with least-required permissions.
 - [ ] Protect `main` and require CI/review.

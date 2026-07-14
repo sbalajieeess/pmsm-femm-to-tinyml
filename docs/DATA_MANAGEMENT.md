@@ -36,7 +36,7 @@ result-archive/
 └─ raw/...
 ```
 
-Attach the archive to a tagged private GitHub Release or place it in the organization’s controlled artifact/data storage. Record the release URL or artifact identifier in the project report.
+Attach approved public artifacts to a tagged GitHub Release. Keep any restricted geometry, material, raw solver, or organization-controlled data in the approved private artifact/data store, and record the release URL or artifact identifier in the project report.
 
 ## Why the supplied folder became large
 
